@@ -1,0 +1,10 @@
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\5230CCA7C4BC2DF9813F98022B080588\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/imgui-subbuild -BC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/imgui-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/imgui-subbuild/imgui-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

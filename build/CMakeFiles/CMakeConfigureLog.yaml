@@ -1,0 +1,2130 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.9.1+a81b43525 for .NET Framework
+      Build started 01.10.2026 20:57:38.
+      
+      Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\4.4.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.42
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/4.4.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/Lucas/bin/lld-link.com"
+      - "C:/Users/Lucas/bin/lld-link.exe"
+      - "C:/Users/Lucas/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.com"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.exe"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Lucas/.cargo/bin/lld-link.com"
+      - "C:/Users/Lucas/.cargo/bin/lld-link.exe"
+      - "C:/Users/Lucas/.cargo/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/lld-link"
+      - "C:/Users/Lucas/.lmstudio/bin/lld-link.com"
+      - "C:/Users/Lucas/.lmstudio/bin/lld-link.exe"
+      - "C:/Users/Lucas/.lmstudio/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Lucas/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Lucas/.astral/bin/lld-link.com"
+      - "C:/Users/Lucas/.astral/bin/lld-link.exe"
+      - "C:/Users/Lucas/.astral/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Users/Lucas/bin/mt.com"
+      - "C:/Users/Lucas/bin/mt.exe"
+      - "C:/Users/Lucas/bin/mt"
+      - "C:/Program Files/Git/mingw64/bin/mt.com"
+      - "C:/Program Files/Git/mingw64/bin/mt.exe"
+      - "C:/Program Files/Git/mingw64/bin/mt"
+      - "C:/Program Files/Git/usr/local/bin/mt.com"
+      - "C:/Program Files/Git/usr/local/bin/mt.exe"
+      - "C:/Program Files/Git/usr/local/bin/mt"
+      - "C:/Program Files/Git/usr/bin/mt.com"
+      - "C:/Program Files/Git/usr/bin/mt.exe"
+      - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/mt.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Mullvad VPN/resources/mt.com"
+      - "C:/Program Files/Mullvad VPN/resources/mt.exe"
+      - "C:/Program Files/Mullvad VPN/resources/mt"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Lucas/.cargo/bin/mt.com"
+      - "C:/Users/Lucas/.cargo/bin/mt.exe"
+      - "C:/Users/Lucas/.cargo/bin/mt"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/mt.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/mt"
+      - "C:/Users/Lucas/.lmstudio/bin/mt.com"
+      - "C:/Users/Lucas/.lmstudio/bin/mt.exe"
+      - "C:/Users/Lucas/.lmstudio/bin/mt"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/mt.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/mt"
+      - "C:/Users/Lucas/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Lucas/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Lucas/AppData/Roaming/npm/mt"
+      - "C:/Users/Lucas/.astral/bin/mt.com"
+      - "C:/Users/Lucas/.astral/bin/mt.exe"
+      - "C:/Users/Lucas/.astral/bin/mt"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/mt"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/mt.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/mt"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/mt.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/mt.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/mt"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.9.1+a81b43525 for .NET Framework
+      Build started 01.10.2026 20:57:39.
+      
+      Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.38
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/4.4.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/Lucas/bin/lld-link.com"
+      - "C:/Users/Lucas/bin/lld-link.exe"
+      - "C:/Users/Lucas/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.com"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link.exe"
+      - "C:/Program Files/Mullvad VPN/resources/lld-link"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Lucas/.cargo/bin/lld-link.com"
+      - "C:/Users/Lucas/.cargo/bin/lld-link.exe"
+      - "C:/Users/Lucas/.cargo/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/lld-link"
+      - "C:/Users/Lucas/.lmstudio/bin/lld-link.com"
+      - "C:/Users/Lucas/.lmstudio/bin/lld-link.exe"
+      - "C:/Users/Lucas/.lmstudio/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Lucas/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Lucas/.astral/bin/lld-link.com"
+      - "C:/Users/Lucas/.astral/bin/lld-link.exe"
+      - "C:/Users/Lucas/.astral/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/lld-link"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/skeet_menu/bin/"
+      - "C:/Program Files (x86)/skeet_menu/sbin/"
+      - "C:/Program Files (x86)/skeet_menu/"
+    searched_directories:
+      - "C:/Users/Lucas/bin/rc.com"
+      - "C:/Users/Lucas/bin/rc.exe"
+      - "C:/Users/Lucas/bin/rc"
+      - "C:/Program Files/Git/mingw64/bin/rc.com"
+      - "C:/Program Files/Git/mingw64/bin/rc.exe"
+      - "C:/Program Files/Git/mingw64/bin/rc"
+      - "C:/Program Files/Git/usr/local/bin/rc.com"
+      - "C:/Program Files/Git/usr/local/bin/rc.exe"
+      - "C:/Program Files/Git/usr/local/bin/rc"
+      - "C:/Program Files/Git/usr/bin/rc.com"
+      - "C:/Program Files/Git/usr/bin/rc.exe"
+      - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/rc.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Mullvad VPN/resources/rc.com"
+      - "C:/Program Files/Mullvad VPN/resources/rc.exe"
+      - "C:/Program Files/Mullvad VPN/resources/rc"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Lucas/.cargo/bin/rc.com"
+      - "C:/Users/Lucas/.cargo/bin/rc.exe"
+      - "C:/Users/Lucas/.cargo/bin/rc"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/rc.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/rc"
+      - "C:/Users/Lucas/.lmstudio/bin/rc.com"
+      - "C:/Users/Lucas/.lmstudio/bin/rc.exe"
+      - "C:/Users/Lucas/.lmstudio/bin/rc"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/rc.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/rc"
+      - "C:/Users/Lucas/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Lucas/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Lucas/AppData/Roaming/npm/rc"
+      - "C:/Users/Lucas/.astral/bin/rc.com"
+      - "C:/Users/Lucas/.astral/bin/rc.exe"
+      - "C:/Users/Lucas/.astral/bin/rc"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/rc"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/rc.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/rc"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/rc.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/rc.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/rc"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/skeet_menu/bin/rc.com"
+      - "C:/Program Files (x86)/skeet_menu/bin/rc.exe"
+      - "C:/Program Files (x86)/skeet_menu/bin/rc"
+      - "C:/Program Files (x86)/skeet_menu/sbin/rc.com"
+      - "C:/Program Files (x86)/skeet_menu/sbin/rc.exe"
+      - "C:/Program Files (x86)/skeet_menu/sbin/rc"
+      - "C:/Program Files (x86)/skeet_menu/rc.com"
+      - "C:/Program Files (x86)/skeet_menu/rc.exe"
+      - "C:/Program Files (x86)/skeet_menu/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/skeet_menu"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/skeet_menu"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-28kxvc"
+      binary: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-28kxvc"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-28kxvc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d43f2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.9.1+a81b43525 for .NET Framework
+        Build started 01.10.2026 20:57:39.
+        
+        Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-28kxvc\\cmTC_d43f2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-28kxvc\\Debug\\".
+          Creating directory "cmTC_d43f2.dir\\Debug\\cmTC_d43f2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d43f2.dir\\Debug\\cmTC_d43f2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d43f2.dir\\Debug\\cmTC_d43f2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d43f2.dir\\Debug\\\\" /Fd"cmTC_d43f2.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d43f2.dir\\Debug\\\\" /Fd"cmTC_d43f2.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-28kxvc\\Debug\\cmTC_d43f2.exe" /INCREMENTAL /ILK:"cmTC_d43f2.dir\\Debug\\cmTC_d43f2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-28kxvc/Debug/cmTC_d43f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-28kxvc/Debug/cmTC_d43f2.lib" /MACHINE:X64  /machine:x64 cmTC_d43f2.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d43f2.vcxproj -> C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-28kxvc\\Debug\\cmTC_d43f2.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d43f2.dir\\Debug\\cmTC_d43f2.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d43f2.dir\\Debug\\cmTC_d43f2.tlog\\cmTC_d43f2.lastbuildstate".
+        Done Building Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-28kxvc\\cmTC_d43f2.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-28kxvc\\Debug\\cmTC_d43f2.exe" /INCREMENTAL /ILK:"cmTC_d43f2.dir\\Debug\\cmTC_d43f2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-28kxvc/Debug/cmTC_d43f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-28kxvc/Debug/cmTC_d43f2.lib" /MACHINE:X64  /machine:x64 cmTC_d43f2.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36257.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-kibt23"
+      binary: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-kibt23"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-kibt23'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5df3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.9.1+a81b43525 for .NET Framework
+        Build started 01.10.2026 20:57:40.
+        
+        Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kibt23\\cmTC_5df3a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kibt23\\Debug\\".
+          Creating directory "cmTC_5df3a.dir\\Debug\\cmTC_5df3a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5df3a.dir\\Debug\\cmTC_5df3a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5df3a.dir\\Debug\\cmTC_5df3a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_5df3a.dir\\Debug\\\\" /Fd"cmTC_5df3a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_5df3a.dir\\Debug\\\\" /Fd"cmTC_5df3a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kibt23\\Debug\\cmTC_5df3a.exe" /INCREMENTAL /ILK:"cmTC_5df3a.dir\\Debug\\cmTC_5df3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-kibt23/Debug/cmTC_5df3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-kibt23/Debug/cmTC_5df3a.lib" /MACHINE:X64  /machine:x64 cmTC_5df3a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_5df3a.vcxproj -> C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kibt23\\Debug\\cmTC_5df3a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5df3a.dir\\Debug\\cmTC_5df3a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5df3a.dir\\Debug\\cmTC_5df3a.tlog\\cmTC_5df3a.lastbuildstate".
+        Done Building Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kibt23\\cmTC_5df3a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kibt23\\Debug\\cmTC_5df3a.exe" /INCREMENTAL /ILK:"cmTC_5df3a.dir\\Debug\\cmTC_5df3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-kibt23/Debug/cmTC_5df3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-kibt23/Debug/cmTC_5df3a.lib" /MACHINE:X64  /machine:x64 cmTC_5df3a.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36257.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-064y8t"
+      binary: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-064y8t"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-064y8t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8de0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.9.1+a81b43525 for .NET Framework
+        Build started 01.10.2026 20:58:06.
+        
+        Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\cmTC_8de0f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\Debug\\".
+          Creating directory "cmTC_8de0f.dir\\Debug\\cmTC_8de0f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8de0f.dir\\Debug\\cmTC_8de0f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8de0f.dir\\Debug\\cmTC_8de0f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8de0f.dir\\Debug\\\\" /Fd"cmTC_8de0f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8de0f.dir\\Debug\\\\" /Fd"cmTC_8de0f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\src.c"
+          src.c
+        C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\cmTC_8de0f.vcxproj]
+        Done Building Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\cmTC_8de0f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\cmTC_8de0f.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-064y8t\\cmTC_8de0f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.20
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-6s27cm"
+      binary: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-6s27cm"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-6s27cm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35b10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.9.1+a81b43525 for .NET Framework
+        Build started 01.10.2026 20:58:07.
+        
+        Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\cmTC_35b10.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\Debug\\".
+          Creating directory "cmTC_35b10.dir\\Debug\\cmTC_35b10.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_35b10.dir\\Debug\\cmTC_35b10.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_35b10.dir\\Debug\\cmTC_35b10.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_35b10.dir\\Debug\\\\" /Fd"cmTC_35b10.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_35b10.dir\\Debug\\\\" /Fd"cmTC_35b10.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\Debug\\cmTC_35b10.exe" /INCREMENTAL /ILK:"cmTC_35b10.dir\\Debug\\cmTC_35b10.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-6s27cm/Debug/cmTC_35b10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-6s27cm/Debug/cmTC_35b10.lib" /MACHINE:X64  /machine:x64 cmTC_35b10.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\cmTC_35b10.vcxproj]
+        Done Building Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\cmTC_35b10.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\cmTC_35b10.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6s27cm\\cmTC_35b10.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-q6svv3"
+      binary: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-q6svv3"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-q6svv3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5f1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.9.1+a81b43525 for .NET Framework
+        Build started 01.10.2026 20:58:07.
+        
+        Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\cmTC_e5f1c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\Debug\\".
+          Creating directory "cmTC_e5f1c.dir\\Debug\\cmTC_e5f1c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e5f1c.dir\\Debug\\cmTC_e5f1c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e5f1c.dir\\Debug\\cmTC_e5f1c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e5f1c.dir\\Debug\\\\" /Fd"cmTC_e5f1c.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e5f1c.dir\\Debug\\\\" /Fd"cmTC_e5f1c.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\Debug\\cmTC_e5f1c.exe" /INCREMENTAL /ILK:"cmTC_e5f1c.dir\\Debug\\cmTC_e5f1c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-q6svv3/Debug/cmTC_e5f1c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/CMakeScratch/TryCompile-q6svv3/Debug/cmTC_e5f1c.lib" /MACHINE:X64  /machine:x64 cmTC_e5f1c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\cmTC_e5f1c.vcxproj]
+        Done Building Project "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\cmTC_e5f1c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\cmTC_e5f1c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Lucas\\Downloads\\proj\\skeet_menu\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q6svv3\\cmTC_e5f1c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "build/_deps/freetype-src/CMakeLists.txt:251 (include)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config.bat"
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "C:/Users/Lucas/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Mullvad VPN/resources/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Lucas/.cargo/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/"
+      - "C:/Users/Lucas/.lmstudio/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Lucas/AppData/Roaming/npm/"
+      - "C:/Users/Lucas/.astral/bin/"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Python312/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/skeet_menu/bin/"
+      - "C:/Program Files (x86)/skeet_menu/sbin/"
+      - "C:/Program Files (x86)/skeet_menu/"
+    searched_directories:
+      - "C:/Users/Lucas/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/bin/pkg-config.bat"
+      - "C:/Users/Lucas/bin/pkg-config.com"
+      - "C:/Users/Lucas/bin/pkg-config.exe"
+      - "C:/Users/Lucas/bin/pkg-config"
+      - "C:/Users/Lucas/bin/pkgconf.com"
+      - "C:/Users/Lucas/bin/pkgconf.exe"
+      - "C:/Users/Lucas/bin/pkgconf"
+      - "C:/Program Files/Git/mingw64/bin/pkg-config.bat.com"
+      - "C:/Program Files/Git/mingw64/bin/pkg-config.bat.exe"
+      - "C:/Program Files/Git/mingw64/bin/pkg-config.bat"
+      - "C:/Program Files/Git/mingw64/bin/pkg-config.com"
+      - "C:/Program Files/Git/mingw64/bin/pkg-config.exe"
+      - "C:/Program Files/Git/mingw64/bin/pkg-config"
+      - "C:/Program Files/Git/mingw64/bin/pkgconf.com"
+      - "C:/Program Files/Git/mingw64/bin/pkgconf.exe"
+      - "C:/Program Files/Git/mingw64/bin/pkgconf"
+      - "C:/Program Files/Git/usr/local/bin/pkg-config.bat.com"
+      - "C:/Program Files/Git/usr/local/bin/pkg-config.bat.exe"
+      - "C:/Program Files/Git/usr/local/bin/pkg-config.bat"
+      - "C:/Program Files/Git/usr/local/bin/pkg-config.com"
+      - "C:/Program Files/Git/usr/local/bin/pkg-config.exe"
+      - "C:/Program Files/Git/usr/local/bin/pkg-config"
+      - "C:/Program Files/Git/usr/local/bin/pkgconf.com"
+      - "C:/Program Files/Git/usr/local/bin/pkgconf.exe"
+      - "C:/Program Files/Git/usr/local/bin/pkgconf"
+      - "C:/Program Files/Git/usr/bin/pkg-config.bat.com"
+      - "C:/Program Files/Git/usr/bin/pkg-config.bat.exe"
+      - "C:/Program Files/Git/usr/bin/pkg-config.bat"
+      - "C:/Program Files/Git/usr/bin/pkg-config.com"
+      - "C:/Program Files/Git/usr/bin/pkg-config.exe"
+      - "C:/Program Files/Git/usr/bin/pkg-config"
+      - "C:/Program Files/Git/usr/bin/pkgconf.com"
+      - "C:/Program Files/Git/usr/bin/pkgconf.exe"
+      - "C:/Program Files/Git/usr/bin/pkgconf"
+      - "C:/Windows/System32/pkg-config.bat.com"
+      - "C:/Windows/System32/pkg-config.bat.exe"
+      - "C:/Windows/System32/pkg-config.bat"
+      - "C:/Windows/System32/pkg-config.com"
+      - "C:/Windows/System32/pkg-config.exe"
+      - "C:/Windows/System32/pkg-config"
+      - "C:/Windows/System32/pkgconf.com"
+      - "C:/Windows/System32/pkgconf.exe"
+      - "C:/Windows/System32/pkgconf"
+      - "C:/Windows/pkg-config.bat.com"
+      - "C:/Windows/pkg-config.bat.exe"
+      - "C:/Windows/pkg-config.bat"
+      - "C:/Windows/pkg-config.com"
+      - "C:/Windows/pkg-config.exe"
+      - "C:/Windows/pkg-config"
+      - "C:/Windows/pkgconf.com"
+      - "C:/Windows/pkgconf.exe"
+      - "C:/Windows/pkgconf"
+      - "C:/Windows/System32/wbem/pkg-config.bat.com"
+      - "C:/Windows/System32/wbem/pkg-config.bat.exe"
+      - "C:/Windows/System32/wbem/pkg-config.bat"
+      - "C:/Windows/System32/wbem/pkg-config.com"
+      - "C:/Windows/System32/wbem/pkg-config.exe"
+      - "C:/Windows/System32/wbem/pkg-config"
+      - "C:/Windows/System32/wbem/pkgconf.com"
+      - "C:/Windows/System32/wbem/pkgconf.exe"
+      - "C:/Windows/System32/wbem/pkgconf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.bat.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.bat.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.bat"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkg-config"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkgconf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkgconf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/pkgconf"
+      - "C:/Windows/System32/OpenSSH/pkg-config.bat.com"
+      - "C:/Windows/System32/OpenSSH/pkg-config.bat.exe"
+      - "C:/Windows/System32/OpenSSH/pkg-config.bat"
+      - "C:/Windows/System32/OpenSSH/pkg-config.com"
+      - "C:/Windows/System32/OpenSSH/pkg-config.exe"
+      - "C:/Windows/System32/OpenSSH/pkg-config"
+      - "C:/Windows/System32/OpenSSH/pkgconf.com"
+      - "C:/Windows/System32/OpenSSH/pkgconf.exe"
+      - "C:/Windows/System32/OpenSSH/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/VSCode/bin/pkgconf"
+      - "C:/Program Files/Git/cmd/pkg-config.bat.com"
+      - "C:/Program Files/Git/cmd/pkg-config.bat.exe"
+      - "C:/Program Files/Git/cmd/pkg-config.bat"
+      - "C:/Program Files/Git/cmd/pkg-config.com"
+      - "C:/Program Files/Git/cmd/pkg-config.exe"
+      - "C:/Program Files/Git/cmd/pkg-config"
+      - "C:/Program Files/Git/cmd/pkgconf.com"
+      - "C:/Program Files/Git/cmd/pkgconf.exe"
+      - "C:/Program Files/Git/cmd/pkgconf"
+      - "C:/Program Files/dotnet/pkg-config.bat.com"
+      - "C:/Program Files/dotnet/pkg-config.bat.exe"
+      - "C:/Program Files/dotnet/pkg-config.bat"
+      - "C:/Program Files/dotnet/pkg-config.com"
+      - "C:/Program Files/dotnet/pkg-config.exe"
+      - "C:/Program Files/dotnet/pkg-config"
+      - "C:/Program Files/dotnet/pkgconf.com"
+      - "C:/Program Files/dotnet/pkgconf.exe"
+      - "C:/Program Files/dotnet/pkgconf"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.bat.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.bat.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.bat"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkg-config"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkgconf.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkgconf.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pkgconf"
+      - "C:/Program Files/CMake/bin/pkg-config.bat.com"
+      - "C:/Program Files/CMake/bin/pkg-config.bat.exe"
+      - "C:/Program Files/CMake/bin/pkg-config.bat"
+      - "C:/Program Files/CMake/bin/pkg-config.com"
+      - "C:/Program Files/CMake/bin/pkg-config.exe"
+      - "C:/Program Files/CMake/bin/pkg-config"
+      - "C:/Program Files/CMake/bin/pkgconf.com"
+      - "C:/Program Files/CMake/bin/pkgconf.exe"
+      - "C:/Program Files/CMake/bin/pkgconf"
+      - "C:/Program Files/nodejs/pkg-config.bat.com"
+      - "C:/Program Files/nodejs/pkg-config.bat.exe"
+      - "C:/Program Files/nodejs/pkg-config.bat"
+      - "C:/Program Files/nodejs/pkg-config.com"
+      - "C:/Program Files/nodejs/pkg-config.exe"
+      - "C:/Program Files/nodejs/pkg-config"
+      - "C:/Program Files/nodejs/pkgconf.com"
+      - "C:/Program Files/nodejs/pkgconf.exe"
+      - "C:/Program Files/nodejs/pkgconf"
+      - "C:/Program Files/Mullvad VPN/resources/pkg-config.bat.com"
+      - "C:/Program Files/Mullvad VPN/resources/pkg-config.bat.exe"
+      - "C:/Program Files/Mullvad VPN/resources/pkg-config.bat"
+      - "C:/Program Files/Mullvad VPN/resources/pkg-config.com"
+      - "C:/Program Files/Mullvad VPN/resources/pkg-config.exe"
+      - "C:/Program Files/Mullvad VPN/resources/pkg-config"
+      - "C:/Program Files/Mullvad VPN/resources/pkgconf.com"
+      - "C:/Program Files/Mullvad VPN/resources/pkgconf.exe"
+      - "C:/Program Files/Mullvad VPN/resources/pkgconf"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkg-config.bat.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkg-config.bat.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkg-config.bat"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkg-config.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkg-config.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkg-config"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkgconf.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkgconf.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/pkgconf"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkg-config.bat.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkg-config.bat.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkg-config.bat"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkg-config.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkg-config.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkg-config"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkgconf.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkgconf.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Python/Launcher/pkgconf"
+      - "C:/Users/Lucas/.cargo/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/.cargo/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/.cargo/bin/pkg-config.bat"
+      - "C:/Users/Lucas/.cargo/bin/pkg-config.com"
+      - "C:/Users/Lucas/.cargo/bin/pkg-config.exe"
+      - "C:/Users/Lucas/.cargo/bin/pkg-config"
+      - "C:/Users/Lucas/.cargo/bin/pkgconf.com"
+      - "C:/Users/Lucas/.cargo/bin/pkgconf.exe"
+      - "C:/Users/Lucas/.cargo/bin/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WindowsApps/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/AMD/AI_Bundle/Ollama/pkgconf"
+      - "C:/Users/Lucas/.lmstudio/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/.lmstudio/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/.lmstudio/bin/pkg-config.bat"
+      - "C:/Users/Lucas/.lmstudio/bin/pkg-config.com"
+      - "C:/Users/Lucas/.lmstudio/bin/pkg-config.exe"
+      - "C:/Users/Lucas/.lmstudio/bin/pkg-config"
+      - "C:/Users/Lucas/.lmstudio/bin/pkgconf.com"
+      - "C:/Users/Lucas/.lmstudio/bin/pkgconf.exe"
+      - "C:/Users/Lucas/.lmstudio/bin/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/Programs/Antigravity IDE/bin/pkgconf"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkg-config"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Roaming/npm/pkgconf"
+      - "C:/Users/Lucas/.astral/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/.astral/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/.astral/bin/pkg-config.bat"
+      - "C:/Users/Lucas/.astral/bin/pkg-config.com"
+      - "C:/Users/Lucas/.astral/bin/pkg-config.exe"
+      - "C:/Users/Lucas/.astral/bin/pkg-config"
+      - "C:/Users/Lucas/.astral/bin/pkgconf.com"
+      - "C:/Users/Lucas/.astral/bin/pkgconf.exe"
+      - "C:/Users/Lucas/.astral/bin/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/Python/bin/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkgconf.com"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkgconf.exe"
+      - "C:/Users/Lucas/AppData/Local/GitHubDesktop/bin/pkgconf"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkg-config.bat.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkg-config.bat.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkg-config.bat"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkg-config.com"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkg-config.exe"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkg-config"
+      - "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkgconf.com"
+    found: "C:/Users/Lucas/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/pkgconf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\Lucas\\bin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\VSCode\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Mullvad VPN\\resources"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Lucas\\.cargo\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Lucas\\AppData\\Local\\AMD\\AI_Bundle\\Ollama"
+        - "C:\\Users\\Lucas\\.lmstudio\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Lucas\\.astral\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\PHP.PHP.8.2_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\Lucas\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin"
+        - "C:\\Users\\Lucas\\AppData\\Local\\Programs\\Python\\Python312"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/skeet_menu"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/skeet_menu"
+...

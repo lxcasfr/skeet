@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/stb-populate"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/318bf6b1a125a162cef1851768938a02/stb-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/5339c408d465acf883d022ce677ee57d/stb-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stb-populate"
+		],
+		"name" : "stb-populate"
+	}
+}

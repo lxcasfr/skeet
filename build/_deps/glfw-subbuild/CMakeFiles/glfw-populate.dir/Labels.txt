@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/3ec7a5607558ffd8f7b7780d9917886c/glfw-populate.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/673195f225440a820535c8b918a2c13d/glfw-populate-complete.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-build.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-configure.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-download.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-install.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-mkdir.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-patch.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-test.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-update.rule

@@ -1,0 +1,17 @@
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/imgui.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/skeet_menu.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/PACKAGE.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/INSTALL.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-build/CMakeFiles/PACKAGE.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-build/CMakeFiles/INSTALL.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-build/src/CMakeFiles/glfw.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-build/src/CMakeFiles/PACKAGE.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-build/src/CMakeFiles/INSTALL.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-build/CMakeFiles/freetype.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-build/CMakeFiles/PACKAGE.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-build/CMakeFiles/INSTALL.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-build/CMakeFiles/ALL_BUILD.dir

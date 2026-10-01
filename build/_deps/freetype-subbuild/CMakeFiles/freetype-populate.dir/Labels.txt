@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/009d709494b77195052754e644ccc0fa/freetype-populate.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/483943ad479c15b2ba655c83e49dee8f/freetype-populate-complete.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-build.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-configure.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-download.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-install.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-mkdir.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-patch.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-test.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/9a11902e4cf9f0b678960676fd6e6cfe/freetype-populate-update.rule

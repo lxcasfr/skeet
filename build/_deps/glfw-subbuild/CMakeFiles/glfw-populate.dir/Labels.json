@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/3ec7a5607558ffd8f7b7780d9917886c/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/673195f225440a820535c8b918a2c13d/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/51b5a773e5baceaa94358ae627c215bb/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

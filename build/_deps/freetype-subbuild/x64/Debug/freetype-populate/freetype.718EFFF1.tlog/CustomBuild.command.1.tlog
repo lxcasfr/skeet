@@ -1,0 +1,152 @@
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/tmp/freetype-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/download-freetype-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/verify-freetype-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/extract-freetype-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\freetype-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\freetype-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\freetype-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\9A11902E4CF9F0B678960676FD6E6CFE\FREETYPE-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\freetype-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\483943AD479C15B2BA655C83E49DEE8F\FREETYPE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/Debug/freetype-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/Debug/freetype-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\009D709494B77195052754E644CCC0FA\FREETYPE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild -BC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild --check-stamp-file C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/freetype-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

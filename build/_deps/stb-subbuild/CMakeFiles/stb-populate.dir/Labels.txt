@@ -1,0 +1,14 @@
+# Target labels
+ stb-populate
+# Source files and their labels
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/stb-populate
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/318bf6b1a125a162cef1851768938a02/stb-populate.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/5339c408d465acf883d022ce677ee57d/stb-populate-complete.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-build.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-configure.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-download.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-install.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-mkdir.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-patch.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-test.rule
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/949680b2f744775e688cc3225a9fc723/stb-populate-update.rule

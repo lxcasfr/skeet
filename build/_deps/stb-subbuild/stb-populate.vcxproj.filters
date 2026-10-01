@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\949680b2f744775e688cc3225a9fc723\stb-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\5339c408d465acf883d022ce677ee57d\stb-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\318bf6b1a125a162cef1851768938a02\stb-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-subbuild\CMakeFiles\stb-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{91818152-B371-3019-A0D0-462D9A879D81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

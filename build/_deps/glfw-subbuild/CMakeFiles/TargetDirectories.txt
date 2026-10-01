@@ -1,0 +1,3 @@
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/CMakeFiles/ZERO_CHECK.dir

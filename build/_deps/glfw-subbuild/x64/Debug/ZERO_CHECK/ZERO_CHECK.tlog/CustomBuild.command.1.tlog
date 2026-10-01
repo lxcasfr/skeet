@@ -1,0 +1,10 @@
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\3EC7A5607558FFD8F7B7780D9917886C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild -BC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/glfw-subbuild/glfw-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

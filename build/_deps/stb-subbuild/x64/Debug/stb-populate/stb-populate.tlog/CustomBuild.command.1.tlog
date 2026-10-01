@@ -1,0 +1,152 @@
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/tmp/stb-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/download-stb-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/verify-stb-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/extract-stb-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\949680B2F744775E688CC3225A9FC723\STB-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Lucas\Downloads\proj\skeet_menu\build\_deps\stb-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\5339C408D465ACF883D022CE677EE57D\STB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/Debug/stb-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/Debug/stb-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKEFILES\318BF6B1A125A162CEF1851768938A02\STB-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LUCAS\DOWNLOADS\PROJ\SKEET_MENU\BUILD\_DEPS\STB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild -BC:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild --check-stamp-file C:/Users/Lucas/Downloads/proj/skeet_menu/build/_deps/stb-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
